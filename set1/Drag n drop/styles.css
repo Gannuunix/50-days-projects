@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.addTextInput {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.data input, button {
+    height: 30px;
+}
+.data input {
+    outline: none;
+    border: 1px solid blueviolet;
+    padding: 0 5px;
+}
+.data button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.boxes .box {
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.item {
+    background-color: blueviolet;
+    margin: 4px;
+    padding: 10px;
+    color: white;
+    cursor: move;
+}

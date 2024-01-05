@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+:root {
+  --font-merr: "Merriweather", serif;
+  --font-mons: font-family: 'Montserrat', sans-serif;
+  --review-bg: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(43, 41, 41);
+  font-family: var(--font-merr);
+}
+
+/** Main Container **/
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 70%;
+  padding: 2rem;
+  margin: 0 auto;
+  margin-top: 7rem;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(43, 41, 41);
+  border-radius: 15px;
+  background-image: url("https://i2.wp.com/kansascityonthecheap.com/lotc-cms/wp-content/uploads/2017/07/Pizza-Hut.jpg?w=864&ssl=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 7px 6px 17px -8px #000000;
+  box-shadow: 7px 6px 17px -8px #000000;
+}
+.info-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 0 auto;
+ 
+  background-color: var(--review-bg);
+  padding: 1rem;
+  width: 50%;
+  border-radius: 10px;
+  font-family: var(--font-mons);
+}
+.info-container #info {
+  margin: 0;
+}
+
+
+/** Title **/
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+/** Personal Info **/
+.personal-info {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 0.6rem;
+  font-family: var(--font-mons);
+
+}
+.personal-info p:last-child {
+  font-weight: bold;
+}
+
+img {
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  opacity: 0.9;
+  border: 3px solid rgb(43, 41, 41);
+}
+
+/** Button Container **/
+.button-container {
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.prev-btn,
+.next-btn {
+  font-size: 1rem;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  color: rgb(43, 41, 41);
+  cursor: pointer;
+}

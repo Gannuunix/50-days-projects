@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #c56c6c;
+}
+.search{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: black;
+    padding: 30px;
+    border-radius: 65px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.submit{
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    
+}
+.search-txt{
+    width: 0;
+    font-size: 36px;
+    border: none;
+    background: transparent;
+    outline: none;
+    transition: 1s;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.252);
+}
+.active{
+    background: white;
+}
+.active .submit{
+    color: black;
+    float: right;
+}
+.active .search-txt{
+  width: 350px;
+  padding: 0 20px;
+}

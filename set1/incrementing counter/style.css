@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+}
+
+/* div i{
+    color: white;
+} */
+
+
+.counter{
+    margin:10px;
+    color: rgb(110, 64, 64);
+    font-size: 40px;
+}
+
+div span{
+    font-size: 25px;
+}
